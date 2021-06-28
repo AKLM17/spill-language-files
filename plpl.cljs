@@ -1,4 +1,4 @@
-(ns language.plpl)
+et(ns language.plpl)
 ;When you see "»" charachter in the source ignore text after "»"
 ;the character "»" indicates the context of the text.
 ;so "Balance»customer" means just "Balance" 
@@ -11,26 +11,26 @@
 
 (def lines
   {;settings
-   "General Settings" "Ustawienia"
-   "Brand Name" "Nazwa firmy" ; same as "Your company" below
-   "Your company / brand name" "Nazwa firmy / nazwa handlowa"
-   "Company invoice name" "Nazwa firmy na fakturze"
-   "Tax Authority" "Organ podatkowy" ;  country-specific governmental entity which imposes taxes
-   "Tax Number" "Identyfikator podatkowy" ; this is company's Tax Identification Number which will be displayed in the invoice.
-   "Invoice Address" "Adres na fakturze"
+   "General Settings" "General Settings"
+   "Brand Name" "Company" ; same as "Your company" below
+   "Your company / brand name" "Your company/brand name"
+   "Company invoice name" "Company Name on Invoice" ; company name on invoices
+   "Tax Authority" "Tax Authority" ;  country-specific governmental entity which imposes taxes
+   "Tax Number" "Tax Number" ; this is company's Tax Identification Number which will be displayed in the invoice.
+   "Invoice Address" "Invoice Address"
    "E-mail" "Email"
-   "City" "Województwo" ; region
-   "Town" "Miejscowość" ; city/town/village
-   "Company Location" "Siedziba firmy"
-   "Phones" "Telefony"
-   "Order Status" "Status zamówienia"
-   "Open" "Otwórz" ; as in: "Open this box to see inside."
-   "Kapalı" "Zamknij" ; as in: "Close this box."
-   "Customer Phones" "Telefony klientów"
+   "City" "Region" ; region
+   "Town" "City" ; city/town/village
+   "Company Location" "Company Location"
+   "Phones" "Phones"
+   "Order Status" "Open for Orders" ; this shows whether the company is currently doing deliveries (Y/N)
+   "Open" "Yes" ; yes = company is delivering
+   "Kapalı" "No" ; no = company is not delivering
+   "Customer Phones" "Customers' Phones"
    "Hidden" "Ukryj" ; 
    "Visible" "Pokaż"
-   "Sendind SMS" "Wysyłanie SMS"
-   "IVR Type" "Typ IVR"
+   "Sendind SMS" "Sendind SMS"
+   "IVR Type" "IVR Type"
    "Not available" "Niedostępne"
    "Repeating order" "Powtarzające się zamówienie"
    "Product amount" "Ilość produktów"
